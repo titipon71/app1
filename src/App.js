@@ -1,7 +1,7 @@
 import React from "react";
 // import "./style.css";
 import { Footer,Content, Header } from "./func-components";
-
+import Calender from "./class-components";
 function App() {
   // const divStyle = {
   //   color: "red",
@@ -10,7 +10,11 @@ function App() {
   //   padding: "3px"
   // }
   return (
-    [<Header/>,<Content/>,<Footer/>]
+    <>
+    <Header/>
+    <p><center><Calender/></center></p>
+    <Content/><Footer/>
+    </>
   )
   // (
   //   <>
