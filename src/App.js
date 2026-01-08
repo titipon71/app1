@@ -1,21 +1,24 @@
 import React from "react";
 // import "./style.css";
-import { Footer,Content, Header } from "./func-components";
-import Calender from "./class-components";
+// import { Footer,Content, Header } from "./func-components";
+// import Calender from "./class-components";
+import Button from "./class-components";
 function App() {
+    return <Button/>
+
   // const divStyle = {
   //   color: "red",
   //   backgroundColor: "powderblue",
   //   fontSize: "larger",
   //   padding: "3px"
   // }
-  return (
-    <>
-    <Header/>
-    <p><center><Calender/></center></p>
-    <Content/><Footer/>
-    </>
-  )
+  // return (
+  //   <>
+  //   <Header/>
+  //   <p><center><Calender/></center></p>
+  //   <Content/><Footer/>
+  //   </>
+  // )
   // (
   //   <>
   //   <h2>DeveloperThai.com</h2>
