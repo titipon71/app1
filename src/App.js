@@ -1,11 +1,11 @@
 import React from "react";
-import { Calculator2 } from "./calculator";
+import EventData2 from "./event-data";
 // import "./style.css";
 // import { Footer,Content, Header } from "./func-components";
 // import Calender from "./class-components";
 // import Button from "./class-components";
 function App() {
-    return <Calculator2/>
+    return <EventData2/>
 
   // const divStyle = {
   //   color: "red",
